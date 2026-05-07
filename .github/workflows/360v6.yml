@@ -5,7 +5,7 @@
 name: 360v6
 
 #CI计划
-于:
+on:
   #自动编译：当Auto-Clean运行完成后
   workflow_run:
     workflows: ["Auto-Clean"]
